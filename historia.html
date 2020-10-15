@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>História - Saber & Ensinar</title>
+	<meta charset='utf-8'>
+	<link rel="stylesheet" href="estilo.css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+  </head>
+  <body>
+  
+    <nav>
+	  <a href="home.html"/>HOME</a>
+	  <a href="historia.html" class="menu_selecionado"/>HISTÓRIA</a>
+	  <a href="informacoes.html" />INFORMAÇÕES</a>
+	  
+	  <a href="javascript:void(0);" class="icone-menu" onclick="MostraOcultaMenu()">
+        <img src="imgs/icone-menu.png"/>
+      </a>
+	  
+	  
+	</nav>
+  
+    <center>
+     <img src="imgs/logo-escola.png" alt="Saber & Escolar" />
+    </center>
+    <h1 class="titulo"> HISTÓRIA </h1>	
+	<p>
+	 <em>Há mais de 45 anos a serviço de uma educação de excelência</em><br/><br/>
+
+       Nancy Izzo sonhava com uma escola que levasse a criança a pensar, a construir e a ter autonomia. Uma escola que descobrisse 
+	   os desejos dos alunos. Eram anos em que se vivia uma revolução estética, uma revolução dos sentidos, a liberação dos costumes, 
+	   do modo de vida. <br/><br/>
+
+       Em 1967, nasceu a escola Carrosel e Nancy foi uma das fundadoras. Depois de 4 anos, Nancy deixou sua primeira criação e, tendo 
+	   certeza de que o mundo da Educação seria sua vida, em 1971, criou o Pentágono Escola Atualizada. Em seu primeiro ano de vida o 
+	   Pentágono, com 22 alunos, funcionava em período integral, próximo a PUC, no bairro de Perdizes. <br/><br/>
+
+       Formar, informar, conscientizar, realizar e libertar. Assim o Pentágono começou. Cresceu sendo reconhecido como uma escola que 
+	   educa para a liberdade, com responsabilidade e independência. Atende às diferenças individuais visando ao desenvolvimento do 
+	   espírito crítico e autoconhecimento em um ambiente muito acolhedor. <br/><br/>
+
+       Além de estrutura de tecnologia voltada para aprendizagem, da Escola de Esportes e Cultura, contamos com período integral 
+	   flexível para os alunos da Educação Infantil e Ensino Fundamental I e possuímos um currículo bilíngue com cursos extras de 
+	   imersão no inglês a partir do G3. Por meio de parcerias com a Missouri University (USA), para o High School e, com a NCC 
+	   Education, para o IFY, oferecemos, do 9º ano ao Ensino Médio, cursos que possibilitam obter diplomas internacionais e a 
+	   entrada em universidades dos EUA e Reino Unido. <br/><br/>
+
+       Em todos os anos de existência, o orgulho de ser uma escola com excelência e paixão pelo ato de educar aparece em cada pessoa 
+	   que faz parte de nossa história. História construída em cada ideia, escolha, olhar, gesto e intervenção. Em cada aula dessa 
+	   escola que nasceu para ficar. <br/><br/>
+	</p> <br/>
+	
+	<div id="rodape"> Copyright (C) 2019 - Saber & Ensinar. Todos os direitos reservados. </div>	
+	<script>
+	function MostraOcultaMenu() {
+	  var elemento = document.getElementsByTagName("nav")[0];	  
+	  if (elemento.className=="menu-principal") {
+		elemento.className = "menu-principal  responsivo";
+	  } else {
+		elemento.className = "menu-principal";
+	  }
+	}
+	</script>
+  </body>
+</html>

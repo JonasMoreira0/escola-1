@@ -1,0 +1,79 @@
+ <!--Menu do Site -->
+   
+ <!-- Logo Tipo Centralizado -->
+ 
+ <!-- Título do Tema -->
+ AQUI SEU FILHO APRENDE
+
+ <!-- Imagem de Destaque -->
+ 
+ <!--Subtítulo-->
+ SOBRE EDUCAÇÃO INFANTIL
+ 
+ <!-- Conteúdo -->
+  Na Educação Infantil, a criança é recebida na escola de maneira acolhedora, com cuidados que permitem a construção de vínculos de 
+  confiança, afeto e segurança. O ato de aprender se dá no convívio com o outro, no relacionamento com a natureza, nas rodas de conversa, 
+  nos momentos de leitura, nas atividades lúdicas e nas múltiplas linguagens promovidas pela escola.
+
+  Para nós, o trabalho com a linguagem oral e escrita constitui um dos eixos básicos do segmento, dada a sua importância na formação do 
+  sujeito, na interação com as outras pessoas, na construção do conhecimento e no desenvolvimento do pensamento.
+
+  A leitura está presente na rotina escolar, na sala de aula ou na biblioteca, com o objetivo de ampliar a experiência com a variedade 
+  de gêneros e cultivar o comportamento leitor.
+
+  O espaço físico da escola, os materiais, os brinquedos, o mobiliário e todos os demais recursos são utilizados como instrumentos 
+  ativos do processo de ensino-aprendizagem, contribuindo para o desenvolvimento pedagógico e social das crianças.
+
+  Trabalhar com projetos possibilita desenvolver um tema abrangendo várias áreas do conhecimento, investigando em profundidade um 
+  assunto marcado por interesses e desejos das crianças em conhecer e descobrir mais sobre o mundo.
+
+  Além das áreas específicas do conhecimento, oferecemos uma grade curricular com aulas complementares de Educação Física, Música, 
+  Inglês e atividades na estação do conhecimento (biblioteca) e no ateliê.
+<!-- Fim do Conteúdo --> 
+
+<!-- Subtítulo -->
+ CONHEÇA A METODOLOGIA
+
+<!--Vídeo Educacional-->
+
+<!--Fim Vídeo Educacional-->
+
+<!-- Subtitulo -->
+ MISSÃO E VALORES
+
+<!-- Conteúdo -->
+  Aqui no "Saber & Ensinar" seguimos uma missão e valores que acreditamos ser o melhor para o desenvolvimento da criança. Vejamos alguns
+  valores abaixo:
+<!-- Fim do Conteúdo -->
+
+<!-- Lista -->
+
+ Excelência acadêmica
+ Parceria com as famílias
+ Formação do indivíduo
+ Ser feliz na escola
+ Cidadão do mundo
+
+<!-- Fim da Lista -->
+
+<!-- Subtítulo -->
+ DEIXE SEU Contato
+
+<!-- Formulário de Contato -->
+
+<!-- Fim Formulário de Contato -->
+
+<!-- Rodapé -->
+  Copyright (C) 2019 - Saber & Ensinar. Todos os direitos reservados.
+<!-- Fim Rodapé -->
+
+ 
+
+
+
+
+
+
+
+
+

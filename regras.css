@@ -1,0 +1,110 @@
+@font-face {
+     font-family:'Oxygen';
+     src:url(fontes/oxygen.otf);
+	 }
+ 
+body {
+	font-family:'Oxygen';
+	margin:0px;
+}
+nav {
+	 overflow:hidden;
+	 background-color:#333;
+ }
+nav a {
+	 float:left;
+	 display:block;
+	 color:#f2f2f2;
+	 text-align:center;
+	 padding:14px 16px;
+	 text-decoration:none;
+	 font-size:17px;
+ }
+nav a:hover {
+	background-color:#e65100;
+	color:#fff;
+} 
+.menu_selecionado {
+	background-color:#e65100;
+	color:#fff;
+}
+nav .icone-menu {
+	display: none;
+}
+
+@media screen and (max-width: 600px) {
+	nav a:not(:firt-child) {display: nome;}
+	nav a.icone-menu {
+		float:0;
+		display:block;
+	}
+}	
+nav.responsivo a {
+	float:none;
+	display:block;
+	text-align:left;
+ }
+}
+#capa {
+	width:100%;
+    max-width:1000px;
+	height:auto;
+}
+.titulo {
+	background-color:#e64A19;
+	color:#fff;
+	width:100%;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:10px;
+	text-align:center;
+}
+.subtitulo {
+	background-color:#01579b;
+	color:#fff;
+	width:100%;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:10px;
+	text-align:center;
+}
+p {
+	padding-left:10px;
+	padding-right:10px;
+	text-align:justificado;
+}
+video {
+	width:95%;
+	max-width:640px;
+	height:automática;
+}
+#rodape {
+	background-color:#333;
+	color:#fff;
+	width:100%;
+	padding-top:10px;
+	padding-left:10px;
+	text-align:centralizado
+}
+input[type=text]
+{
+	width:95%;
+	max-width:300px;
+	font-size:16px;
+	color:#bf360c;
+	font-weight:bold;
+	text-transform:uppercase;
+}      
+textarea {
+	width:100%;
+	max-width:400px;
+	min-height:100px;
+}
+input[type=submit] {
+	background-color:#ff5722;
+	color:#fff;
+	padding:10px;
+	border:1px #ff5722 solid;
+	font-weight:bold;
+	cursor:pointer;
+}

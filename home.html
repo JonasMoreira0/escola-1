@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home - Saber & Ensinar</title>
+	<meta charset='utf-8'>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="regras.css" />
+	
+  </head>
+  
+  <body>
+     <!--Menu do Site -->
+     <nav>
+	  <a href="home.html" class="menu_selecionado"/>HOME</a>
+	  <a href="historia.html"/>HISTÓRIA</a>
+	  <a href="informacoes.html"/>INFORMAÇÕES</a>
+	 
+	  <a href="Javascript:vold(0);"class="icone-menu"
+	  onclick="MostraOcultaMenu()">
+	  <img src="imgs/icone-menu.png">
+	  </a>
+	 </nav>
+	 
+	 <!-- Logo Tipo Centralizado -->
+	 <center>
+	 <img src="imgs/logo-escola.png" alt="Escola Saber & Ensinar"/>
+	 </center>
+	 
+	 <!-- Título do Tema -->
+	 <h1 class="titulo">AQUI SEU FILHO APRENDE</h1>
+    
+	<!-- Imagem de Destaque -->
+	 <center>
+	 <img id="capa" src="imgs/capa-site.jpg" alt="Aqui seu filho Aprende - Escola Saber e Ensinar"/>
+	 </center>
+	 
+	 <!--Subtítulo-->
+	 <h2 class="subtitulo">SOBRE EDUCAÇÃO INFANTIL</h2>
+	 
+	 <!-- Conteúdo -->
+	  <p>Na Educação Infantil, a criança é recebida na escola de maneira acolhedora, com cuidados que permitem a construção de vínculos de 
+	  confiança, afeto e segurança. O ato de aprender se dá no convívio com o outro, no relacionamento com a natureza, nas rodas de conversa, 
+	  nos momentos de leitura, nas atividades lúdicas e nas múltiplas linguagens promovidas pela escola.</p>
+
+	  <p>Para nós, o trabalho com a linguagem oral e escrita constitui um dos eixos básicos do segmento, dada a sua importância na formação do 
+	  sujeito, na interação com as outras pessoas, na construção do conhecimento e no desenvolvimento do pensamento.</p>
+
+	  <p>A leitura está presente na rotina escolar, na sala de aula ou na biblioteca, com o objetivo de ampliar a experiência com a variedade 
+	  de gêneros e cultivar o comportamento leitor.</p>
+
+	  <p>O espaço físico da escola, os materiais, os brinquedos, o mobiliário e todos os demais recursos são utilizados como instrumentos 
+	  ativos do processo de ensino-aprendizagem, contribuindo para o desenvolvimento pedagógico e social das crianças.</p>
+
+	  <p>Trabalhar com projetos possibilita desenvolver um tema abrangendo várias áreas do conhecimento, investigando em profundidade um 
+	  assunto marcado por interesses e desejos das crianças em conhecer e descobrir mais sobre o mundo.</p>
+
+	  <p>Além das áreas específicas do conhecimento, oferecemos uma grade curricular com aulas complementares de Educação Física, Música, 
+	  Inglês e atividades na estação do conhecimento (biblioteca) e no ateliê.</p>
+	<!-- Fim do Conteúdo --> 
+
+	<!-- Subtítulo -->
+	 <h2 class="subtitulo">CONHEÇA A METODOLOGIA</h2>
+
+	<!--Vídeo Educacional-->
+	 <center>
+		 <video controls>
+			 <source src="videos\video-sobre-educacao.mp4"
+			type="video/mp4">
+		 </video>
+     </center>	 
+	<!--Fim Vídeo Educacional-->
+     
+	<!-- Subtitulo -->
+	<h2 class="subtitulo"> MISSÃO E VALORES</h2>
+
+	<!-- Conteúdo -->
+	  Aqui no "Saber & Ensinar" seguimos uma missão e valores que acreditamos ser o melhor para o desenvolvimento da criança. Vejamos alguns
+	  valores abaixo:
+	<!-- Fim do Conteúdo -->
+
+	<!-- Lista -->
+    
+     <ul>	
+	 <li>Excelência acadêmica</li>
+	 <li>Parceria com as famílias</li>
+	 <li>Formação do indivíduo</li>
+	 <li>Ser feliz na escola</li>
+	 <li>Cidadão do mundo</li>
+	 </ul>
+
+	<!-- Fim da Lista -->
+
+	<!-- Subtítulo -->
+	 DEIXE SEU Contato
+
+	<!-- Formulário de Contato -->
+     <form  method="Post" action="enviar-comentario.php"> 
+		  Nome: <input id="txtnome"  type="text" required/>
+		  <br/><br/>
+		  E-mail: <input id="txtdata" type="text"
+		  required/> <br/><br/>
+		  Comentario: <input id="txtrg"  type="texttarea" required/>
+		  <br/><br/>
+		  Enviar Dados: <input id= type="submit"/> 
+		<br/><br/>
+	</form>	
+	<!-- Fim Formulário de Contato -->
+
+	<!-- Rodapé -->
+	<div id="rodape"> 
+	 Copyright (C) 2019 - Saber & Ensinar. Todos os direitos reservados.
+	</div>
+	<!-- Fim Rodapé -->
+   <script>
+	  function MostraOcultaMenu(){
+	  var elemento = docment.getElementsByTagName("nav")[0];
+	  if (elemento.className == "menu-pricipal") {
+	    elemento.class = "menu-principal responsivo"; }
+	  else {
+	    elemento.className = "Menu-principal";
+	  }
+	}  
+  </script>
+  </body>
+</html>
